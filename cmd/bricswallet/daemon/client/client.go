@@ -2,16 +2,16 @@ package client
 
 import (
 	"context"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/server"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/server"
 	"time"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/pb"
 	"google.golang.org/grpc"
 )
 
-// Connect connects to the kaspawalletd server, and returns the client instance
+// Connect connects to the bricswalletd server, and returns the client instance
 func Connect(address string) (pb.KaspawalletdClient, func(), error) {
 	// Connection is local, so 1 second timeout is sufficient
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
@@ -20,7 +20,7 @@ func Connect(address string) (pb.KaspawalletdClient, func(), error) {
 	conn, err := grpc.DialContext(ctx, address, grpc.WithInsecure(), grpc.WithBlock(), grpc.WithDefaultCallOptions(grpc.MaxCallRecvMsgSize(server.MaxDaemonSendMsgSize)))
 	if err != nil {
 		if errors.Is(err, context.DeadlineExceeded) {
-			return nil, nil, errors.New("bricswallet daemon is not running, start it with `kaspawallet start-daemon`")
+			return nil, nil, errors.New("bricswallet daemon is not running, start it with `bricswallet start-daemon`")
 		}
 		return nil, nil, err
 	}

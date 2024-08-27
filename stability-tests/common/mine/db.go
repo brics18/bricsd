@@ -3,9 +3,9 @@ package mine
 import (
 	"path/filepath"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/db/database/ldb"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/infrastructure/db/database"
+	"github.com/brics18/bricsd/infrastructure/db/database/ldb"
 )
 
 const leveldbCacheSizeMiB = 256

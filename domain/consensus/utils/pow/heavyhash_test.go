@@ -3,8 +3,8 @@ package pow
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/utils/hashes"
 	"math/rand"
 	"testing"
 )

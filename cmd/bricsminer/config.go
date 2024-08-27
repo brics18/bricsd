@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
+	"github.com/brics18/bricsd/infrastructure/config"
 
-	"github.com/kaspanet/kaspad/util"
+	"github.com/brics18/bricsd/util"
 	"github.com/pkg/errors"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/brics18/bricsd/version"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"time"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/stability-tests/common"
+	"github.com/brics18/bricsd/stability-tests/common/rpc"
+	"github.com/brics18/bricsd/util"
 	"github.com/pkg/errors"
 )
 

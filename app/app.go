@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/db/database/ldb"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/os/execenv"
-	"github.com/kaspanet/kaspad/infrastructure/os/limits"
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/infrastructure/os/winservice"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/brics18/bricsd/infrastructure/config"
+	"github.com/brics18/bricsd/infrastructure/db/database"
+	"github.com/brics18/bricsd/infrastructure/db/database/ldb"
+	"github.com/brics18/bricsd/infrastructure/logger"
+	"github.com/brics18/bricsd/infrastructure/os/execenv"
+	"github.com/brics18/bricsd/infrastructure/os/limits"
+	"github.com/brics18/bricsd/infrastructure/os/signal"
+	"github.com/brics18/bricsd/infrastructure/os/winservice"
+	"github.com/brics18/bricsd/util/panics"
+	"github.com/brics18/bricsd/util/profiling"
+	"github.com/brics18/bricsd/version"
 )
 
 const (

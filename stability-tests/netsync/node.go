@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/domain/consensus"
+	"github.com/brics18/bricsd/domain/consensus"
 	"os/exec"
 	"strings"
 	"sync/atomic"
 	"syscall"
 	"time"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/mine"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
-	"github.com/kaspanet/kaspad/util"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/stability-tests/common"
+	"github.com/brics18/bricsd/stability-tests/common/mine"
+	"github.com/brics18/bricsd/stability-tests/common/rpc"
+	"github.com/brics18/bricsd/util"
+	"github.com/brics18/bricsd/util/panics"
 	"github.com/pkg/errors"
 )
 

@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
+	"github.com/brics18/bricsd/infrastructure/db/database"
 )
 
 func TestDatabasePut(t *testing.T) {

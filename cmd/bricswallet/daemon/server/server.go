@@ -8,20 +8,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaspanet/kaspad/version"
+	"github.com/brics18/bricsd/version"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/util/txmass"
+	"github.com/brics18/bricsd/util/txmass"
 
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/brics18/bricsd/util/profiling"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/keys"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/network/rpcclient"
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/pb"
+	"github.com/brics18/bricsd/cmd/bricswallet/keys"
+	"github.com/brics18/bricsd/domain/dagconfig"
+	"github.com/brics18/bricsd/infrastructure/network/rpcclient"
+	"github.com/brics18/bricsd/infrastructure/os/signal"
+	"github.com/brics18/bricsd/util/panics"
 	"github.com/pkg/errors"
 
 	"google.golang.org/grpc"

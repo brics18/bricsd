@@ -5,18 +5,18 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model"
+	"github.com/brics18/bricsd/domain/consensus/model"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/app/rpc/rpchandlers"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/model/testapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/miningmanager"
-	"github.com/kaspanet/kaspad/infrastructure/config"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/app/rpc/rpccontext"
+	"github.com/brics18/bricsd/app/rpc/rpchandlers"
+	"github.com/brics18/bricsd/domain/consensus"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/model/testapi"
+	"github.com/brics18/bricsd/domain/consensus/utils/hashes"
+	"github.com/brics18/bricsd/domain/consensus/utils/testutils"
+	"github.com/brics18/bricsd/domain/miningmanager"
+	"github.com/brics18/bricsd/infrastructure/config"
 )
 
 type fakeDomain struct {

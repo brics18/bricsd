@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/pb"
+	"github.com/brics18/bricsd/cmd/bricswallet/libkaspawallet"
+	"github.com/brics18/bricsd/domain/consensus/utils/constants"
+	"github.com/brics18/bricsd/util"
 	"github.com/pkg/errors"
 )
 

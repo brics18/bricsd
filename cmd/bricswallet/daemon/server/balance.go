@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/pb"
+	"github.com/brics18/bricsd/cmd/bricswallet/libkaspawallet"
 )
 
 type balancesType struct{ available, pending uint64 }

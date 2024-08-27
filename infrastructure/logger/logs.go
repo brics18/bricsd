@@ -35,7 +35,7 @@ package logger
 import (
 	"bytes"
 	"fmt"
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/brics18/bricsd/util/mstime"
 	"os"
 	"runtime"
 	"sync/atomic"

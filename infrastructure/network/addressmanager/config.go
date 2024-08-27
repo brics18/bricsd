@@ -3,7 +3,7 @@ package addressmanager
 import (
 	"net"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
+	"github.com/brics18/bricsd/infrastructure/config"
 )
 
 // Config is a descriptor which specifies the AddressManager instance configuration.
