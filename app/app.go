@@ -41,7 +41,7 @@ type kaspadApp struct {
 	cfg *config.Config
 }
 
-// StartApp starts the kaspad app, and blocks until it finishes running
+// StartApp starts the bricsd app, and blocks until it finishes running
 func StartApp() error {
 	execenv.Initialize(desiredLimits)
 
@@ -125,12 +125,12 @@ func (app *kaspadApp) main(startedChan chan<- struct{}) error {
 	// Create componentManager and start it.
 	componentManager, err := NewComponentManager(app.cfg, databaseContext, interrupt)
 	if err != nil {
-		log.Errorf("Unable to start kaspad: %+v", err)
+		log.Errorf("Unable to start bricsd: %+v", err)
 		return err
 	}
 
 	defer func() {
-		log.Infof("Gracefully shutting down kaspad...")
+		log.Infof("Gracefully shutting down bricsd...")
 
 		shutdownDone := make(chan struct{})
 		go func() {
