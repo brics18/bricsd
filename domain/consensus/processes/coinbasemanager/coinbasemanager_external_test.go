@@ -1,10 +1,10 @@
 package coinbasemanager_test
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
+	"github.com/brics18/bricsd/domain/consensus"
+	"github.com/brics18/bricsd/domain/consensus/model"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/utils/testutils"
 	"testing"
 )
 

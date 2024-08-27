@@ -1,7 +1,7 @@
 package math_test
 
 import (
-	utilMath "github.com/kaspanet/kaspad/util/math"
+	utilMath "github.com/brics18/bricsd/util/math"
 	"math"
 	"testing"
 )

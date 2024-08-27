@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/client"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/client"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/pb"
 )
 
 func newAddress(conf *newAddressConfig) error {

@@ -1,11 +1,11 @@
 package flowcontext
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/app/protocol/common"
+	peerpkg "github.com/brics18/bricsd/app/protocol/peer"
+	"github.com/brics18/bricsd/infrastructure/network/connmanager"
+	"github.com/brics18/bricsd/infrastructure/network/netadapter"
 	"github.com/pkg/errors"
 )
 

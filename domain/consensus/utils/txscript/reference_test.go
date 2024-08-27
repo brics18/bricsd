@@ -13,12 +13,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
+	"github.com/brics18/bricsd/domain/consensus/utils/constants"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/brics18/bricsd/domain/consensus/utils/consensushashing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

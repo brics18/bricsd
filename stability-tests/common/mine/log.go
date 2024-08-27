@@ -1,8 +1,8 @@
 package mine
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/brics18/bricsd/infrastructure/logger"
+	"github.com/brics18/bricsd/util/panics"
 )
 
 // log is a logger that is initialized with no output filters. This

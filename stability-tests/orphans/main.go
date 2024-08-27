@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/brics18/bricsd/stability-tests/common"
+	"github.com/brics18/bricsd/stability-tests/common/rpc"
+	"github.com/brics18/bricsd/util/profiling"
 )
 
 var timeout = 30 * time.Second

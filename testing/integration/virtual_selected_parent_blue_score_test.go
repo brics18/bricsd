@@ -1,7 +1,7 @@
 package integration
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
+	"github.com/brics18/bricsd/app/appmessage"
 	"testing"
 )
 

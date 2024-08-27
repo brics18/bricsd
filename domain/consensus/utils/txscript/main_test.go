@@ -1,7 +1,7 @@
 package txscript
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/brics18/bricsd/infrastructure/logger"
 	"os"
 	"testing"
 )

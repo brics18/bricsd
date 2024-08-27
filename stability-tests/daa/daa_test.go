@@ -1,12 +1,12 @@
 package daa
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/pow"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/network/rpcclient"
-	"github.com/kaspanet/kaspad/stability-tests/common"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/utils/pow"
+	"github.com/brics18/bricsd/domain/dagconfig"
+	"github.com/brics18/bricsd/infrastructure/network/rpcclient"
+	"github.com/brics18/bricsd/stability-tests/common"
 	"math"
 	"math/rand"
 	"os"

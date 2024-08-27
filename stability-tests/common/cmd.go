@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/brics18/bricsd/domain/dagconfig"
+	"github.com/brics18/bricsd/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

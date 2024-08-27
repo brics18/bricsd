@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
+	"github.com/brics18/bricsd/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/domain"
+	"github.com/brics18/bricsd/domain"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/app/protocol/flowcontext"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/brics18/bricsd/app/protocol/flowcontext"
+	peerpkg "github.com/brics18/bricsd/app/protocol/peer"
+	"github.com/brics18/bricsd/infrastructure/config"
+	"github.com/brics18/bricsd/infrastructure/network/addressmanager"
+	"github.com/brics18/bricsd/infrastructure/network/connmanager"
+	"github.com/brics18/bricsd/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

@@ -3,18 +3,18 @@ package handshake
 import (
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/domain"
+	"github.com/brics18/bricsd/domain"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
+	"github.com/brics18/bricsd/app/protocol/common"
+	"github.com/brics18/bricsd/app/protocol/protocolerrors"
+	"github.com/brics18/bricsd/infrastructure/network/addressmanager"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/brics18/bricsd/infrastructure/config"
+	"github.com/brics18/bricsd/infrastructure/network/netadapter"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/brics18/bricsd/app/appmessage"
+	peerpkg "github.com/brics18/bricsd/app/protocol/peer"
+	routerpkg "github.com/brics18/bricsd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

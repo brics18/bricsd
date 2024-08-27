@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/client"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/utils"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/client"
+	"github.com/brics18/bricsd/cmd/bricswallet/daemon/pb"
+	"github.com/brics18/bricsd/cmd/bricswallet/utils"
 )
 
 func balance(conf *balanceConfig) error {

@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/brics18/bricsd/util/mstime"
 
-	"github.com/kaspanet/kaspad/domain/consensus/database"
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/staging"
+	"github.com/brics18/bricsd/domain/consensus/database"
+	"github.com/brics18/bricsd/domain/consensus/model"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/ruleerrors"
+	"github.com/brics18/bricsd/infrastructure/logger"
+	"github.com/brics18/bricsd/util/staging"
 	"github.com/pkg/errors"
 )
 

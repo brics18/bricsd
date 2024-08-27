@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/brics18/bricsd/version"
 	"os"
 	"path/filepath"
 	"strings"

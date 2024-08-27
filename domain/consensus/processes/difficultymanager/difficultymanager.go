@@ -4,13 +4,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/math"
+	"github.com/brics18/bricsd/infrastructure/logger"
+	"github.com/brics18/bricsd/util/math"
 
-	"github.com/kaspanet/kaspad/util/difficulty"
+	"github.com/brics18/bricsd/util/difficulty"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/model"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
 )
 
 // DifficultyManager provides a method to resolve the

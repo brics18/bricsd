@@ -1,17 +1,17 @@
 package rpc
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/app/protocol"
+	"github.com/brics18/bricsd/app/rpc/rpccontext"
+	"github.com/brics18/bricsd/domain"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/utxoindex"
+	"github.com/brics18/bricsd/infrastructure/config"
+	"github.com/brics18/bricsd/infrastructure/logger"
+	"github.com/brics18/bricsd/infrastructure/network/addressmanager"
+	"github.com/brics18/bricsd/infrastructure/network/connmanager"
+	"github.com/brics18/bricsd/infrastructure/network/netadapter"
 	"github.com/pkg/errors"
 )
 

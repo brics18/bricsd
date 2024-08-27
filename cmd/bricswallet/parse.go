@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet/serialization"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
+	"github.com/brics18/bricsd/cmd/bricswallet/libkaspawallet/serialization"
+	"github.com/brics18/bricsd/domain/consensus/utils/consensushashing"
+	"github.com/brics18/bricsd/domain/consensus/utils/constants"
+	"github.com/brics18/bricsd/domain/consensus/utils/txscript"
 	"github.com/pkg/errors"
 	"io/ioutil"
 	"strings"
@@ -48,7 +48,7 @@ func parse(conf *parseConfig) error {
 			partiallySignedInput := partiallySignedTransaction.PartiallySignedInputs[index]
 
 			if conf.Verbose {
-				fmt.Printf("Input %d: \tOutpoint: %s:%d \tAmount: %.2f Kaspa\n", index, input.PreviousOutpoint.TransactionID,
+				fmt.Printf("Input %d: \tOutpoint: %s:%d \tAmount: %.2f Brics\n", index, input.PreviousOutpoint.TransactionID,
 					input.PreviousOutpoint.Index, float64(partiallySignedInput.PrevOutput.Value)/float64(constants.SompiPerKaspa))
 			}
 
@@ -71,7 +71,7 @@ func parse(conf *parseConfig) error {
 				addressString = fmt.Sprintf("<Non-standard transaction script public key: %s>", scriptPublicKeyHex)
 			}
 
-			fmt.Printf("Output %d: \tRecipient: %s \tAmount: %.2f Kaspa\n",
+			fmt.Printf("Output %d: \tRecipient: %s \tAmount: %.2f Brics\n",
 				index, addressString, float64(output.Value)/float64(constants.SompiPerKaspa))
 
 			allOutputSompi += output.Value

@@ -1,8 +1,8 @@
 package addressmanager
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/util/mstime"
 	"net"
 	"reflect"
 	"testing"

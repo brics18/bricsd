@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
+	"github.com/brics18/bricsd/domain/dagconfig"
 	"os"
 	"sync/atomic"
 	"syscall"

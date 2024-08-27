@@ -2,24 +2,24 @@ package transactionrelay_test
 
 import (
 	"errors"
-	"github.com/kaspanet/kaspad/app/protocol/flowcontext"
-	"github.com/kaspanet/kaspad/app/protocol/flows/v5/transactionrelay"
+	"github.com/brics18/bricsd/app/protocol/flowcontext"
+	"github.com/brics18/bricsd/app/protocol/flows/v5/transactionrelay"
 	"strings"
 	"testing"
 
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/brics18/bricsd/app/protocol/protocolerrors"
+	"github.com/brics18/bricsd/domain"
+	"github.com/brics18/bricsd/domain/consensus"
+	"github.com/brics18/bricsd/domain/consensus/model/externalapi"
+	"github.com/brics18/bricsd/domain/consensus/utils/testutils"
+	"github.com/brics18/bricsd/domain/miningmanager/mempool"
+	"github.com/brics18/bricsd/infrastructure/logger"
+	"github.com/brics18/bricsd/util/panics"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/infrastructure/config"
+	"github.com/brics18/bricsd/infrastructure/network/netadapter"
+	"github.com/brics18/bricsd/infrastructure/network/netadapter/router"
 )
 
 type mocTransactionsRelayContext struct {

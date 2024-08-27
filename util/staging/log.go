@@ -1,7 +1,7 @@
 package staging
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/brics18/bricsd/infrastructure/logger"
 )
 
 var utilLog = logger.RegisterSubSystem("UTIL")

@@ -1,20 +1,20 @@
 package protocol
 
 import (
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/app/protocol/flows/ready"
-	"github.com/kaspanet/kaspad/app/protocol/flows/v5"
+	"github.com/brics18/bricsd/app/protocol/common"
+	"github.com/brics18/bricsd/app/protocol/flows/ready"
+	"github.com/brics18/bricsd/app/protocol/flows/v5"
 	"sync"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/flows/handshake"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/brics18/bricsd/app/appmessage"
+	"github.com/brics18/bricsd/app/protocol/flows/handshake"
+	peerpkg "github.com/brics18/bricsd/app/protocol/peer"
+	"github.com/brics18/bricsd/app/protocol/protocolerrors"
+	"github.com/brics18/bricsd/infrastructure/network/addressmanager"
+	"github.com/brics18/bricsd/infrastructure/network/connmanager"
+	"github.com/brics18/bricsd/infrastructure/network/netadapter"
+	routerpkg "github.com/brics18/bricsd/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 
